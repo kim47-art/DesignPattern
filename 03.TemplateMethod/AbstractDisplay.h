@@ -3,9 +3,9 @@
 
 class AbstractDisplay{
     public:
-        virtual void open(){};
-        virtual void print(){};
-        virtual void close(){};
+        virtual void open() = 0;
+        virtual void print() = 0;
+        virtual void close() = 0;
         virtual void display() final{
             open();
             for (int i = 0; i < 5; i++)
