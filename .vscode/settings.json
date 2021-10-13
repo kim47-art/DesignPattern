@@ -54,6 +54,10 @@
         "map": "cpp",
         "memory_resource": "cpp",
         "random": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "list": "cpp",
+        "set": "cpp"
     }
 }
